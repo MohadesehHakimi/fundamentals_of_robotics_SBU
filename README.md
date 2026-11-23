@@ -35,7 +35,7 @@ Code: `HW3/Bug0.py`, `HW3/Bug1.py`, `HW3/Bug2.py`, and `HW3/base_bug.py`. Scene:
 1. **e-puck mapping (`Project/mapping/epuck-mapping.py`):** Wall following, LiDAR point-cloud collection, QR-code detection, and export of map/landmark data.
 2. **Occupancy-grid construction (`Project/navigation/occupancy grid.py`):** Convert recorded LiDAR points into a discrete occupancy map.
 3. **Particle-filter localization (`Project/localization/`):** Estimate a mobile robot's pose using odometry, LiDAR observations, and QR-code/room cues. **Experimental:** the reported implementation did not reliably converge.
-4. **A* navigation (`Project/navigation/a_star_planner.py`):** Plan from a known start position to a selected QR-code landmark on the occupancy grid, with a penalty for proximity to obstacles.
+4. **A\* Navigation** (`Project/navigation/a_star_planner.py`): Plan from a known start position to a selected QR-code landmark on the occupancy grid, with a penalty for proximity to obstacles.
 
 Simulation scene: `Project/worlds/epuck.wbt`. Selected generated scans, occupancy grids, landmark data, and sample paths are included alongside the scripts.
 
